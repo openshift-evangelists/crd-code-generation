@@ -1,0 +1,14 @@
+required = ["k8s.io/code-generator/cmd/client-gen"]
+
+[[constraint]]
+  name = "k8s.io/apimachinery"
+  branch = "release-1.8"
+
+[[constraint]]
+  name = "k8s.io/client-go"
+  branch = "release-5.0"
+
+[[constraint]]
+  name = "k8s.io/code-generator"
+  branch = "master"
+  source = "github.com/sttts/code-generator"
