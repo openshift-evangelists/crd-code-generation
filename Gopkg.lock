@@ -212,17 +212,16 @@
   revision = "afb4606c45bae77c4dc2c15291d4d7d6d792196c"
 
 [[projects]]
-  branch = "master"
+  branch = "release-1.8"
   name = "k8s.io/code-generator"
   packages = ["cmd/client-gen","cmd/client-gen/args","cmd/client-gen/generators","cmd/client-gen/generators/fake","cmd/client-gen/generators/scheme","cmd/client-gen/generators/util","cmd/client-gen/path","cmd/client-gen/types"]
-  revision = "aaa11be3549de11b8de2664a393fa12edb7feb99"
-  source = "github.com/sttts/code-generator"
+  revision = "0c5165a97e055df28cca8bbcb8b7c8ae1019b3f1"
+  source = "github.com/kubernetes/code-generator"
 
 [[projects]]
-  branch = "master"
   name = "k8s.io/gengo"
   packages = ["args","generator","namer","parser","types"]
-  revision = "70ad626ed2d7a483d89d2c4c56364d60b48ee8fc"
+  revision = "9e661e9308f078838e266cca1c673922088c0ea4"
 
 [[projects]]
   branch = "master"
@@ -233,6 +232,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "578150b86c59c60e5c618a2d9ae0d6707438fce5105cf205a8360484a7dbd7e9"
+  inputs-digest = "b2ee6ab948c4110f786f508b62f123acd5182759688b2db5ef7f210ea1a35ce7"
   solver-name = "gps-cdcl"
   solver-version = 1

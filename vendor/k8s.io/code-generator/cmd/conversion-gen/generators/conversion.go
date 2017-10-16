@@ -291,11 +291,7 @@ func Packages(context *generator.Context, arguments *args.GeneratorArgs) generat
 		// Make sure our peer-packages are added and fully parsed.
 		for _, pp := range peerPkgs {
 			context.AddDir(pp)
-			p := context.Universe[pp]
-			if nil == p {
-				glog.Fatalf("failed to find pkg: %s", pp)
-			}
-			getManualConversionFunctions(context, p, manualConversions)
+			getManualConversionFunctions(context, context.Universe[pp], manualConversions)
 		}
 
 		unsafeEquality := TypesEqual(memoryEquivalentTypes)
