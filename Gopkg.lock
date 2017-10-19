@@ -216,7 +216,6 @@
   name = "k8s.io/code-generator"
   packages = ["cmd/client-gen","cmd/client-gen/args","cmd/client-gen/generators","cmd/client-gen/generators/fake","cmd/client-gen/generators/scheme","cmd/client-gen/generators/util","cmd/client-gen/path","cmd/client-gen/types"]
   revision = "0c5165a97e055df28cca8bbcb8b7c8ae1019b3f1"
-  source = "github.com/kubernetes/code-generator"
 
 [[projects]]
   name = "k8s.io/gengo"
@@ -232,6 +231,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b2ee6ab948c4110f786f508b62f123acd5182759688b2db5ef7f210ea1a35ce7"
+  inputs-digest = "74b208196310f4d2fe2e8d573484e1b640400f8eca016a3761e5871984502072"
   solver-name = "gps-cdcl"
   solver-version = 1
