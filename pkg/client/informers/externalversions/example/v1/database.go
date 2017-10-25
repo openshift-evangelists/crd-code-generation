@@ -19,10 +19,10 @@ limitations under the License.
 package v1
 
 import (
-	example_com_v1 "github.com/openshift-evangelist/crd-code-generation/pkg/apis/example.com/v1"
-	versioned "github.com/openshift-evangelist/crd-code-generation/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/openshift-evangelist/crd-code-generation/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/openshift-evangelist/crd-code-generation/pkg/client/listers/example/v1"
+	example_com_v1 "github.com/openshift-evangelists/crd-code-generation/pkg/apis/example.com/v1"
+	versioned "github.com/openshift-evangelists/crd-code-generation/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/openshift-evangelists/crd-code-generation/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/openshift-evangelists/crd-code-generation/pkg/client/listers/example/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

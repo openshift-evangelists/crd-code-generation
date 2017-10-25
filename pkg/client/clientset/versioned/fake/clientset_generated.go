@@ -16,9 +16,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/openshift-evangelist/crd-code-generation/pkg/client/clientset/versioned"
-	examplev1 "github.com/openshift-evangelist/crd-code-generation/pkg/client/clientset/versioned/typed/example/v1"
-	fakeexamplev1 "github.com/openshift-evangelist/crd-code-generation/pkg/client/clientset/versioned/typed/example/v1/fake"
+	clientset "github.com/openshift-evangelists/crd-code-generation/pkg/client/clientset/versioned"
+	examplev1 "github.com/openshift-evangelists/crd-code-generation/pkg/client/clientset/versioned/typed/example/v1"
+	fakeexamplev1 "github.com/openshift-evangelists/crd-code-generation/pkg/client/clientset/versioned/typed/example/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

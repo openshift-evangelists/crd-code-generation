@@ -20,7 +20,7 @@ package externalversions
 
 import (
 	"fmt"
-	v1 "github.com/openshift-evangelist/crd-code-generation/pkg/apis/example.com/v1"
+	v1 "github.com/openshift-evangelists/crd-code-generation/pkg/apis/example.com/v1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

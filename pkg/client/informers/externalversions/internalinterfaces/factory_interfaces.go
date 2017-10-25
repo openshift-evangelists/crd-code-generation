@@ -19,7 +19,7 @@ limitations under the License.
 package internalinterfaces
 
 import (
-	versioned "github.com/openshift-evangelist/crd-code-generation/pkg/client/clientset/versioned"
+	versioned "github.com/openshift-evangelists/crd-code-generation/pkg/client/clientset/versioned"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	cache "k8s.io/client-go/tools/cache"
 	time "time"
