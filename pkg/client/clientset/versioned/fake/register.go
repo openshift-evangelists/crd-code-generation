@@ -16,7 +16,7 @@ limitations under the License.
 package fake
 
 import (
-	examplev1 "github.com/openshift-evangelist/crd-code-generation/pkg/apis/example.com/v1"
+	examplev1 "github.com/openshift-evangelists/crd-code-generation/pkg/apis/example.com/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

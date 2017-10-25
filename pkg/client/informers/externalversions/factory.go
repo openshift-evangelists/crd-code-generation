@@ -19,9 +19,9 @@ limitations under the License.
 package externalversions
 
 import (
-	versioned "github.com/openshift-evangelist/crd-code-generation/pkg/client/clientset/versioned"
-	example "github.com/openshift-evangelist/crd-code-generation/pkg/client/informers/externalversions/example"
-	internalinterfaces "github.com/openshift-evangelist/crd-code-generation/pkg/client/informers/externalversions/internalinterfaces"
+	versioned "github.com/openshift-evangelists/crd-code-generation/pkg/client/clientset/versioned"
+	example "github.com/openshift-evangelists/crd-code-generation/pkg/client/informers/externalversions/example"
+	internalinterfaces "github.com/openshift-evangelists/crd-code-generation/pkg/client/informers/externalversions/internalinterfaces"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"

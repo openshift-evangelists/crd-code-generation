@@ -19,8 +19,8 @@ limitations under the License.
 package example
 
 import (
-	v1 "github.com/openshift-evangelist/crd-code-generation/pkg/client/informers/externalversions/example/v1"
-	internalinterfaces "github.com/openshift-evangelist/crd-code-generation/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/openshift-evangelists/crd-code-generation/pkg/client/informers/externalversions/example/v1"
+	internalinterfaces "github.com/openshift-evangelists/crd-code-generation/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

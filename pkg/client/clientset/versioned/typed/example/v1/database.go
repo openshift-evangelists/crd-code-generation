@@ -16,8 +16,8 @@ limitations under the License.
 package v1
 
 import (
-	v1 "github.com/openshift-evangelist/crd-code-generation/pkg/apis/example.com/v1"
-	scheme "github.com/openshift-evangelist/crd-code-generation/pkg/client/clientset/versioned/scheme"
+	v1 "github.com/openshift-evangelists/crd-code-generation/pkg/apis/example.com/v1"
+	scheme "github.com/openshift-evangelists/crd-code-generation/pkg/client/clientset/versioned/scheme"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

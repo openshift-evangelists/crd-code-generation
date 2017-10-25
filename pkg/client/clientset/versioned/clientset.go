@@ -17,7 +17,7 @@ package versioned
 
 import (
 	glog "github.com/golang/glog"
-	examplev1 "github.com/openshift-evangelist/crd-code-generation/pkg/client/clientset/versioned/typed/example/v1"
+	examplev1 "github.com/openshift-evangelists/crd-code-generation/pkg/client/clientset/versioned/typed/example/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
