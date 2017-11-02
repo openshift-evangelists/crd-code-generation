@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	examplecom "github.com/openshift-evangelist/crd-code-generation/pkg/apis/example.com"
+	examplecom "github.com/openshift-evangelists/crd-code-generation/pkg/apis/example.com"
 )
 
 // SchemeGroupVersion is group version used to register these objects
