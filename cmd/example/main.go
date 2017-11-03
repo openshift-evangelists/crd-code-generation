@@ -9,7 +9,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/clientcmd"
 
-	examplecomclientset "github.com/openshift-evangelist/crd-code-generation/pkg/client/clientset/versioned"
+	examplecomclientset "github.com/openshift-evangelists/crd-code-generation/pkg/client/clientset/versioned"
 )
 
 var (
