@@ -4,6 +4,11 @@ Example repository for the blog post [Kubernetes Deep Dive: Code Generation for 
 
 ## Getting Started
 
+Checkout this repo under this folder and set the GOPATH
+git clone https://github.com/openshift-evangelists/crd-code-generation.git ~/src/github.com/openshift-evangelists/crd-code-generation/
+export GOPATH=~
+
+
 First register the custom resource definition:
 
 ```
