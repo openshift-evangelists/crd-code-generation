@@ -4,7 +4,6 @@ Example repository for the blog post [Kubernetes Deep Dive: Code Generation for 
 
 ## Installation
 
-Checkout this repo under this folder and set the GOPATH
 export GOPATH=~/go
 go get github.com/openshift-evangelists/crd-code-generation
 
