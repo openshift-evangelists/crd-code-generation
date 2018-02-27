@@ -4,8 +4,10 @@ Example repository for the blog post [Kubernetes Deep Dive: Code Generation for 
 
 ## Installation
 
+```
 export GOPATH=~/go
 go get github.com/openshift-evangelists/crd-code-generation
+```
 
 ## Getting Started
 
@@ -24,7 +26,7 @@ kubectl apply -f artifacts/my-database.yaml
 Finally build and run the example:
 
 ```
-cd cd ~/go/src/github.com/openshift-evangelists/crd-code-generation/cmd/example/
+cd ~/go/src/github.com/openshift-evangelists/crd-code-generation/cmd/example/
 go build
 ./example -kubeconfig ~/.kube/config
 ```
